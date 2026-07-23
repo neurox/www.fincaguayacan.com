@@ -1,0 +1,54 @@
+---
+const navItems = [
+  { name: 'Inicio', href: '#inicio' },
+  { name: 'Nosotros', href: '#nosotros' },
+  { name: 'Productos', href: '#productos' },
+  { name: 'Contacto', href: '#contacto' },
+];
+---
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo -->
+      <a href="#inicio" class="flex items-center space-x-3">
+        <img src="/images/profile.jpg" alt="Finca Guayacán" class="h-10 w-10 rounded-full object-cover" />
+        <span class="font-heading text-lg font-semibold text-primary">Finca Guayacán</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex space-x-8">
+        {navItems.map((item) => (
+          <a href={item.href} class="text-text hover:text-primary transition-colors font-medium">
+            {item.name}
+          </a>
+        ))}
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 text-text hover:text-primary" aria-label="Abrir menú">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4">
+      {navItems.map((item) => (
+        <a href={item.href} class="block py-2 text-text hover:text-primary transition-colors font-medium">
+          {item.name}
+        </a>
+      ))}
+    </div>
+  </nav>
+</header>
+
+<script>
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+</script>
