@@ -1,0 +1,53 @@
+---
+const products = [
+  {
+    image: '/images/product-1.jpg',
+    name: 'Huevo Blanco Orgánico',
+    description: 'Huevos de gallinas criadas en libre pastoreo, con frescura garantizada.',
+    badges: ['Orgánico', 'Libre Pastoreo'],
+  },
+  {
+    image: '/images/product-2.jpg',
+    name: 'Huevo Orgánico Premium',
+    description: 'Calidad superior con yemas de color intenso y sabor incomparable.',
+    badges: ['Premium', 'Certificado'],
+  },
+  {
+    image: '/images/product-3.jpg',
+    name: 'Huevos Orgánicos Eco',
+    description: 'Empaque hecho con PET 100% reciclado, cuidando el medio ambiente.',
+    badges: ['Eco', 'Reciclado'],
+  },
+];
+---
+
+<section id="productos" class="py-20 bg-background">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-primary text-center mb-12 font-heading">
+      Nuestros Productos
+    </h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      {products.map((product) => (
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          <img
+            src={product.image}
+            alt={product.name}
+            class="w-full h-64 object-cover"
+            loading="lazy"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-primary mb-2 font-heading">{product.name}</h3>
+            <p class="text-text/70 mb-4">{product.description}</p>
+            <div class="flex flex-wrap gap-2">
+              {product.badges.map((badge) => (
+                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">
+                  {badge}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
