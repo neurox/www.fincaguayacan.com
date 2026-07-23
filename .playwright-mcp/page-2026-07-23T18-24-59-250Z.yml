@@ -1,0 +1,138 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=e12] [cursor=pointer]:
+          - img "Facebook" [ref=e13]
+      - generic [ref=e16]:
+        - button "Iniciar sesión con código QR" [ref=e582] [cursor=pointer]
+        - generic [ref=e18]:
+          - textbox "Correo o teléfono" [ref=e21]
+          - textbox "Contraseña" [ref=e24]
+          - button "Iniciar sesión" [ref=e27] [cursor=pointer]
+          - link "¿Olvidaste la cuenta?" [ref=e34] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - link "Ver foto de portada del perfil" [ref=e518] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=1550186073778262&set=a.499196265543920
+      - generic [ref=e61]:
+        - link "Finca Guayacán - Productos Orgánicos" [ref=e519] [cursor=pointer]:
+          - /url: https://www.facebook.com/photo/?fbid=1388706606592877&set=a.499196262210587&__tn__=%3C
+          - img "Finca Guayacán - Productos Orgánicos" [ref=e520]
+        - generic [ref=e72]:
+          - heading "Finca Guayacán - Productos Orgánicos" [level=1] [ref=e521]
+          - generic [ref=e79]:
+            - link [ref=e522] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx/followers/
+              - strong [ref=e81]: 4,7 mil
+              - text: seguidores
+            - text: •
+            - link [ref=e523] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx/following/
+              - strong [ref=e83]: "41"
+              - text: seguidos
+    - generic [ref=e91]:
+      - tablist [ref=e99]:
+        - generic [ref=e101]:
+          - generic [ref=e102]: Más
+          - tab "Publicaciones" [ref=e524] [cursor=pointer]
+          - tab "Información" [active] [selected] [ref=e525] [cursor=pointer]
+          - tab "Reels" [ref=e526] [cursor=pointer]
+          - tab "Fotos" [ref=e527] [cursor=pointer]
+      - button "Ver más opciones en la configuración del perfil" [ref=e528] [cursor=pointer]
+    - generic [ref=e587]:
+      - generic [ref=e592]:
+        - tablist [ref=e593]:
+          - heading "Información" [level=2] [ref=e595]
+          - generic [ref=e597]:
+            - tab "Información básica y de contacto" [selected] [ref=e598] [cursor=pointer]
+            - tab "Transparencia de la página" [ref=e600] [cursor=pointer]
+        - generic [ref=e605]:
+          - region [ref=e607]:
+            - heading "Categorías" [level=2] [ref=e610]
+            - generic [ref=e612]: Tienda de alimentos orgánicos
+          - region [ref=e620]:
+            - heading "Información de contacto" [level=2] [ref=e623]
+            - list [ref=e630]:
+              - listitem [ref=e631]:
+                - generic [ref=e633]:
+                  - generic [ref=e634]: 55 3567 6152
+                  - generic [ref=e636]: Celular
+            - list [ref=e649]:
+              - listitem [ref=e650]:
+                - generic [ref=e652]:
+                  - generic [ref=e653]: info@fincaguayacan.com
+                  - generic [ref=e655]: Correo electrónico
+          - region [ref=e664]:
+            - heading "Sitios web y enlaces de medios sociales" [level=2] [ref=e667]
+            - list [ref=e674]:
+              - listitem [ref=e675]:
+                - generic [ref=e677]:
+                  - link "http://www.fincaguayacan.com/" [ref=e680] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.fincaguayacan.com%2F&h=AUBdqN3C2HdT88Qk0n04z6Ak_q_1dbOWLIlbuWWnz6lzZ3ry6s7G46KRYIPK47ygVuFUC2lCtVGUgAXVQn6uw-ZeK0ZVWkEMz8yuFouCn7prO1BIYJupUFfbrpEOpErQ1FbF96Sk8nOQ_rmAFJrkV51hkxc
+                  - generic [ref=e681]: Sitio web
+          - region [ref=e690]:
+            - heading "Información básica" [level=2] [ref=e693]
+            - list [ref=e700]:
+              - listitem [ref=e701]:
+                - generic [ref=e702]: Recomendado por el 58% (15 opiniones)
+            - list [ref=e711]:
+              - listitem [ref=e712]:
+                - generic [ref=e714]:
+                  - generic [ref=e715]: Rango de precios · $$
+                  - generic [ref=e717]: Precio
+      - generic [ref=e729]:
+        - heading [level=2] [ref=e734]:
+          - link "Reels" [ref=e736] [cursor=pointer]:
+            - /url: https://www.facebook.com/fincaguayacanmx/reels_tab
+        - tablist [ref=e740]:
+          - generic [ref=e742]:
+            - generic [ref=e743]: Más
+            - tab [disabled] [selected] [ref=e749] [cursor=pointer]:
+              - generic [ref=e750]: Reels de Finca Guayacán - Productos Orgánicos
+        - generic [ref=e753]:
+          - generic [ref=e755]:
+            - link "Vista previa del ícono de reel" [ref=e759] [cursor=pointer]:
+              - /url: /reel/229536313150001/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e760]: 1,8 mil
+            - link "Vista previa del ícono de reel" [ref=e772] [cursor=pointer]:
+              - /url: /reel/597398572265383/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e773]: "834"
+            - link "Vista previa del ícono de reel" [ref=e785] [cursor=pointer]:
+              - /url: /reel/158132940523585/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e786]: "244"
+            - link "Vista previa del ícono de reel" [ref=e798] [cursor=pointer]:
+              - /url: /reel/4021594147951953/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e799]: "81"
+            - link "Vista previa del ícono de reel" [ref=e811] [cursor=pointer]:
+              - /url: /reel/280162287160204/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e812]: 24 mil
+            - link "Vista previa del ícono de reel" [ref=e824] [cursor=pointer]:
+              - /url: /reel/743803416337716/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e825]: 1,2 mil
+            - link "Vista previa del ícono de reel" [ref=e837] [cursor=pointer]:
+              - /url: /reel/783130472329376/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e838]: 4,7 mil
+            - link "Vista previa del ícono de reel" [ref=e850] [cursor=pointer]:
+              - /url: /reel/694775707818624/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e851]: 13 mil
+            - link "Vista previa del ícono de reel" [ref=e863] [cursor=pointer]:
+              - /url: /reel/773462320150246/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e864]: 17 mil
+            - link "Vista previa del ícono de reel" [ref=e876] [cursor=pointer]:
+              - /url: /reel/286706232639625/?s=fb_shorts_profile&stack_idx=0
+              - generic [ref=e877]: "213"
+          - link "Ver todo" [ref=e886] [cursor=pointer]:
+            - /url: https://www.facebook.com/fincaguayacanmx/owner_reels
+      - status "Cargando..." [ref=e891]
+  - generic [ref=e563]:
+    - generic [ref=e564]: Inicia sesión o regístrate en Facebook para conectarte con amigos, familiares y personas que conoces.
+    - generic [ref=e567]:
+      - link "Iniciar sesión" [ref=e569] [cursor=pointer]:
+        - /url: /login/?next=%2Ffincaguayacanmx%2F%3Flocale%3Des_LA
+      - generic [ref=e573]: o
+      - link "Crear cuenta nueva" [ref=e576] [cursor=pointer]:
+        - /url: /reg/?next=%2Ffincaguayacanmx%2F%3Flocale%3Des_LA

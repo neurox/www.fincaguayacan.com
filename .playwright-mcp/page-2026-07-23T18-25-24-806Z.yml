@@ -1,0 +1,138 @@
+- generic [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic [ref=e8]:
+              - generic [ref=e10]:
+                - generic:
+                  - button [disabled]
+                - button "Facebook" [ref=e12] [cursor=pointer]:
+                  - img "Facebook" [ref=e13]
+              - generic [ref=e16]:
+                - button "Iniciar sesión con código QR" [ref=e582] [cursor=pointer]
+                - generic [ref=e18]:
+                  - textbox "Correo o teléfono" [ref=e21]
+                  - textbox "Contraseña" [ref=e24]
+                  - button "Iniciar sesión" [ref=e27] [cursor=pointer]
+                  - link "¿Olvidaste la cuenta?" [ref=e34] [cursor=pointer]:
+                    - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+          - main [ref=e41]:
+            - generic [ref=e42]:
+              - link [ref=e1519] [cursor=pointer]:
+                - /url: https://www.facebook.com/photo/?fbid=1550186073778262&set=a.499196265543920
+              - generic [ref=e61]:
+                - link [ref=e1520] [cursor=pointer]:
+                  - /url: https://www.facebook.com/photo/?fbid=1388706606592877&set=a.499196262210587&__tn__=%3C
+                - generic [ref=e72]:
+                  - heading [level=1] [ref=e1522]: Finca Guayacán - Productos Orgánicos
+                  - generic [ref=e79]:
+                    - link [ref=e1523] [cursor=pointer]:
+                      - /url: https://www.facebook.com/fincaguayacanmx/followers/
+                      - strong [ref=e81]: 4,7 mil
+                      - text: seguidores
+                    - text: •
+                    - link [ref=e1524] [cursor=pointer]:
+                      - /url: https://www.facebook.com/fincaguayacanmx/following/
+                      - strong [ref=e83]: "41"
+                      - text: seguidos
+            - generic [ref=e91]:
+              - tablist [ref=e99]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]: Más
+                  - tab [ref=e1525] [cursor=pointer]:
+                    - generic [ref=e109]: Publicaciones
+                  - tab [ref=e1526] [cursor=pointer]:
+                    - generic [ref=e113]: Información
+                  - tab [selected] [ref=e1527] [cursor=pointer]:
+                    - generic [ref=e117]: Reels
+                  - tab [ref=e1528] [cursor=pointer]:
+                    - generic [ref=e121]: Fotos
+              - button [ref=e1529] [cursor=pointer]
+            - generic [ref=e1537]:
+              - heading [level=2] [ref=e1542]:
+                - link [ref=e1544] [cursor=pointer]:
+                  - /url: https://www.facebook.com/fincaguayacanmx/reels_tab
+                  - text: Reels
+              - tablist [ref=e1548]:
+                - generic [ref=e1550]:
+                  - generic [ref=e1551]: Más
+                  - tab [selected] [ref=e1557] [cursor=pointer]:
+                    - generic [ref=e1558]: Reels de Finca Guayacán - Productos Orgánicos
+              - generic [ref=e1561]:
+                - generic [ref=e1562]:
+                  - link [ref=e1566] [cursor=pointer]:
+                    - /url: /reel/229536313150001/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1567]: 1,8 mil
+                  - link [ref=e1579] [cursor=pointer]:
+                    - /url: /reel/597398572265383/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1580]: "834"
+                  - link [ref=e1592] [cursor=pointer]:
+                    - /url: /reel/158132940523585/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1593]: "244"
+                  - link [ref=e1605] [cursor=pointer]:
+                    - /url: /reel/4021594147951953/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1606]: "81"
+                  - link [ref=e1618] [cursor=pointer]:
+                    - /url: /reel/280162287160204/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1619]: 24 mil
+                  - link [ref=e1631] [cursor=pointer]:
+                    - /url: /reel/743803416337716/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1632]: 1,2 mil
+                  - link [ref=e1644] [cursor=pointer]:
+                    - /url: /reel/783130472329376/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1645]: 4,7 mil
+                  - link [ref=e1657] [cursor=pointer]:
+                    - /url: /reel/694775707818624/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1658]: 13 mil
+                  - link [ref=e1670] [cursor=pointer]:
+                    - /url: /reel/773462320150246/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1671]: 17 mil
+                  - link [ref=e1683] [cursor=pointer]:
+                    - /url: /reel/286706232639625/?s=fb_shorts_profile&stack_idx=0
+                    - generic [ref=e1684]: "213"
+                  - status [ref=e1693]
+                  - status [ref=e1694]
+                  - status [ref=e1695]
+                  - status [ref=e1696]
+                  - status [ref=e1697]
+                  - status [ref=e1698]
+                  - status [ref=e1699]
+                  - status [ref=e1700]
+                  - status [ref=e1701]
+                  - status [ref=e1702]
+                  - status [ref=e1703]
+                  - status [ref=e1704]
+                  - status [ref=e1705]
+                  - status [ref=e1706]
+                  - status [ref=e1707]
+                  - status [ref=e1708]
+                - status [ref=e1710]
+          - generic [ref=e563]:
+            - generic [ref=e564]: Inicia sesión o regístrate en Facebook para conectarte con amigos, familiares y personas que conoces.
+            - generic [ref=e567]:
+              - link "Iniciar sesión" [ref=e569] [cursor=pointer]:
+                - /url: /login/?next=%2Ffincaguayacanmx%2F%3Flocale%3Des_LA
+              - generic [ref=e573]: o
+              - link "Crear cuenta nueva" [ref=e576] [cursor=pointer]:
+                - /url: /reg/?next=%2Ffincaguayacanmx%2F%3Flocale%3Des_LA
+  - dialog [ref=e1754]:
+    - generic [ref=e1760]:
+      - generic [ref=e1761]:
+        - generic [ref=e1762]: Ve más en Facebook
+        - generic [ref=e1769]:
+          - generic: Correo electrónico o número de teléfono
+          - textbox "Correo electrónico o número de teléfono" [active] [ref=e1770]
+        - generic [ref=e1775]:
+          - generic: Contraseña
+          - textbox "Contraseña" [ref=e1776]
+        - button "Iniciar sesión en Facebook" [ref=e1778] [cursor=pointer]:
+          - generic [ref=e1779]: Iniciar sesión
+        - link "¿Olvidaste tu contraseña?" [ref=e1783] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=e1785]: o
+        - button "Crear cuenta nueva" [ref=e1794] [cursor=pointer]
+      - generic [ref=e1804]:
+        - generic [ref=e1805]: Escanea el código QR y confirma que coinciden los códigos para iniciar sesión.
+        - generic [ref=e1806]: NPZ-SMJ-NGHO

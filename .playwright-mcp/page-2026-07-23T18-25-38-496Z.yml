@@ -1,0 +1,105 @@
+- generic [ref=f1e5]:
+  - banner:
+    - generic [ref=f1e8]:
+      - generic [ref=f1e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=f1e12] [cursor=pointer]:
+          - img "Facebook" [ref=f1e13]
+      - generic [ref=f1e16]:
+        - button "Log in with QR code" [ref=f1e19] [cursor=pointer]
+        - generic [ref=f1e23]:
+          - textbox "Email or phone" [ref=f1e26]
+          - textbox "Password" [ref=f1e29]
+          - button "Log In" [ref=f1e32] [cursor=pointer]
+          - link "Forgot Account?" [ref=f1e39] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=f1e46]:
+    - generic [ref=f1e47]:
+      - link [ref=f1e58] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=1550186073778262&set=a.499196265543920
+      - generic [ref=f1e66]:
+        - link [ref=f1e69] [cursor=pointer]:
+          - /url: https://www.facebook.com/photo/?fbid=1388706606592877&set=a.499196262210587&__tn__=%3C
+        - generic [ref=f1e77]:
+          - heading [level=1] [ref=f1e82]: Finca Guayacán - Productos Orgánicos
+          - generic [ref=f1e84]:
+            - link [ref=f1e85] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx/followers/
+              - strong [ref=f1e86]: 4.7K
+              - text: followers
+            - text: •
+            - link [ref=f1e87] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx/following/
+              - strong [ref=f1e88]: "41"
+              - text: following
+    - generic [ref=f1e96]:
+      - tablist [ref=f1e104]:
+        - generic [ref=f1e106]:
+          - generic [ref=f1e107]: More
+          - tab [ref=f1e113] [cursor=pointer]:
+            - generic [ref=f1e114]: Posts
+          - tab [ref=f1e117] [cursor=pointer]:
+            - generic [ref=f1e118]: About
+          - tab [ref=f1e121] [cursor=pointer]:
+            - generic [ref=f1e122]: Reels
+          - tab [ref=f1e125] [cursor=pointer]:
+            - generic [ref=f1e126]: Photos
+      - button [ref=f1e131] [cursor=pointer]
+    - generic [ref=f1e140]:
+      - generic [ref=f1e144]:
+        - heading [level=2] [ref=f1e148]:
+          - generic [ref=f1e149]: 58% recommend (15 Reviews)
+        - button [ref=f1e151] [cursor=pointer]
+      - article [ref=f1e159]:
+        - generic [ref=f1e167]:
+          - generic [ref=f1e169]:
+            - link [ref=f1e173] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=f1e180]:
+              - heading [level=2] [ref=f1e184]:
+                - generic [ref=f1e187]:
+                  - generic [ref=f1e188]: Maria LD
+                  - text: doesn't recommend
+                  - link [ref=f1e192] [cursor=pointer]:
+                    - /url: https://www.facebook.com/fincaguayacanmx?__cft__[0]=AZZ1nMGhuJUNxTLVdBpuf1Lxy6oTydtQu3g7YkebjoLvty11C3WYJYEvcje0M0sw0MVlTy14J0L7wf4_-KUMyaX0fvystCsyfKlNq34A5KwkuA&__tn__=-]C%2CP-R
+                    - text: Finca Guayacán - Productos Orgánicos
+                  - text: .
+              - generic [ref=f1e195]:
+                - link [ref=f1e199] [cursor=pointer]:
+                  - /url: https://www.facebook.com/maria.ld.746797/posts/pfbid02iBFLVziE1wXgz7ezgtWBX6kpUCD7TysaUZH29PS9yhT584do2H9HUG7cNV2EZzmPl?__cft__[0]=AZZ1nMGhuJUNxTLVdBpuf1Lxy6oTydtQu3g7YkebjoLvty11C3WYJYEvcje0M0sw0MVlTy14J0L7wf4_-KUMyaX0fvystCsyfKlNq34A5KwkuA&__tn__=%2CO%2CP-R
+                  - text: June 18, 2024
+                - generic [ref=f1e200]: ·
+          - generic [ref=f1e212]: Compré un paquete en Costco y al abrirlo, un olor a podrido insoportable. Y caducaban en 18 días. Muy mal control de calidad. Si me hubiera comido eso literal al hospital.
+          - generic [ref=f1e228]:
+            - generic [ref=f1e233]:
+              - toolbar [ref=f1e234]:
+                - button [ref=f1e239] [cursor=pointer]
+              - generic [ref=f1e240]: "All reactions:"
+              - generic [ref=f1e241]: "1"
+            - status [ref=f1e250]
+      - generic [ref=f1e255]:
+        - article [ref=f1e256]:
+          - status [ref=f1e257]
+        - article [ref=f1e269]:
+          - status [ref=f1e270]
+  - dialog [ref=f1e290]:
+    - button "Close" [ref=f1e292] [cursor=pointer]
+    - generic [ref=f1e298]:
+      - generic [ref=f1e299]:
+        - generic [ref=f1e300]: See more on Facebook
+        - generic [ref=f1e307]:
+          - generic: Email or phone number
+          - textbox "Email or phone number" [active] [ref=f1e308]
+        - generic [ref=f1e313]:
+          - generic: Password
+          - textbox "Password" [ref=f1e314]
+        - button "Log in to Facebook" [ref=f1e316] [cursor=pointer]:
+          - generic [ref=f1e317]: Log In
+        - link "Forgot password?" [ref=f1e321] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=f1e323]: or
+        - button "Create new account" [ref=f1e332] [cursor=pointer]
+      - generic [ref=f1e342]:
+        - generic [ref=f1e343]: Scan the QR code and confirm the codes match to log in.
+        - generic [ref=f1e344]: NPZ-SMJ-NGHO

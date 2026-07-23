@@ -1,0 +1,66 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=e12] [cursor=pointer]:
+          - img "Facebook" [ref=e13]
+      - generic [ref=e16]:
+        - button "Log in with QR code" [ref=e19] [cursor=pointer]
+        - generic [ref=e23]:
+          - textbox "Email or phone" [ref=e26]
+          - textbox "Password" [ref=e29]
+          - button "Log In" [ref=e32] [cursor=pointer]
+          - link "Forgot Account?" [ref=e39] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - generic [ref=e45]:
+    - main [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - button "Next photo" [ref=e255] [cursor=pointer]
+          - img "No photo description available." [ref=e256]
+        - link "Close viewer and return to feed" [ref=e257] [cursor=pointer]:
+          - /url: /?__tn__=*F
+        - generic [ref=e71]:
+          - button "Zoom In" [ref=e258] [cursor=pointer]
+          - button "Zoom Out" [disabled] [ref=e259]
+          - button "Enter fullscreen" [ref=e260] [cursor=pointer]
+    - complementary [ref=e87]:
+      - generic [ref=e91]:
+        - generic [ref=e94]:
+          - link "Finca Guayacán - Productos Orgánicos" [ref=e261] [cursor=pointer]:
+            - /url: https://www.facebook.com/fincaguayacanmx?__tn__=%3C%3C*F
+            - img "Finca Guayacán - Productos Orgánicos" [ref=e262]
+          - generic [ref=e105]:
+            - heading [level=2] [ref=e263]:
+              - link "Finca Guayacán - Productos Orgánicos" [ref=e264] [cursor=pointer]:
+                - /url: https://www.facebook.com/fincaguayacanmx?__tn__=-UC*F
+            - generic [ref=e116]:
+              - link "October 25, 2025" [ref=e265] [cursor=pointer]:
+                - /url: https://www.facebook.com/photo/?fbid=1388706606592877&set=a.499196262210587&__tn__=%2CO*F
+              - generic [ref=e121]: ·
+              - img "Shared with Public" [ref=e266]
+          - button "Actions for this post" [ref=e267] [cursor=pointer]
+        - generic [ref=e141]:
+          - generic [ref=e144]:
+            - toolbar "See who reacted to this" [ref=e268]:
+              - 'button "Like: 2 people" [ref=e269] [cursor=pointer]'
+            - generic [ref=e151]: "All reactions:"
+            - generic [ref=e152]: "2"
+          - generic [ref=e155]:
+            - button "Like" [ref=e270] [cursor=pointer]
+            - button "Comment" [ref=e271] [cursor=pointer]
+        - generic [ref=e171]:
+          - heading "Comments" [level=2] [ref=e272]
+          - generic [ref=e183]:
+            - heading "No comments yet" [level=2] [ref=e273]
+            - generic [ref=e187]: Be the first to comment.
+  - generic [ref=e275]:
+    - generic [ref=e276]: Log in or sign up for Facebook to connect with friends, family and people you know.
+    - generic [ref=e279]:
+      - link "Log In" [ref=e281] [cursor=pointer]:
+        - /url: /login/?next=%2Fphoto%2F%3Ffbid%3D1388706606592877%26set%3Da.499196262210587
+      - generic [ref=e285]: or
+      - link "Create new account" [ref=e288] [cursor=pointer]:
+        - /url: /reg/?next=%2Fphoto%2F%3Ffbid%3D1388706606592877%26set%3Da.499196262210587

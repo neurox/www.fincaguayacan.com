@@ -1,0 +1,17 @@
+[    1109ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.facebook.com/fincaguayacanmx/?locale=es_LA:0
+[    1109ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.facebook.com/fincaguayacanmx/?locale=es_LA:0
+[    2032ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.xx.fbcdn.net/rsrc.php/v4/yq/r/a5BXqhTg_NQ.js:57
+[    2188ms] [ERROR] ErrorUtils caught an error:
+
+terminate stream because StartStreamFailure with msg : UNAUTHENTICATED [Caught in: Subscription error in preprocessResponse]
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1784831065, extra: Object, guardList: Array(0), hash: xcw2wn} @ https://static.xx.fbcdn.net/rsrc.php/v4/y9/r/FApUuMExP_t.js:79
+[    2204ms] [LOG] 
+%c¡Detente! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/y9/r/FApUuMExP_t.js:246
+[    2204ms] [LOG] 
+%cEsta función del navegador está pensada para desarrolladores. Si alguien te indicó que copiaras y pegaras algo aquí para habilitar una función de Facebook o para "hackear" la cuenta de alguien, se trata de un fraude. Si lo haces, esta persona podrá acceder a tu cuenta. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/y9/r/FApUuMExP_t.js:246
+[    2204ms] [LOG] 
+%cVisita https://www.facebook.com/selfxss para obtener más información. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/y9/r/FApUuMExP_t.js:246
+[    2204ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/y9/r/FApUuMExP_t.js:246
+[   60392ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.facebook.com/fincaguayacanmx/reels/?locale=es_LA:0

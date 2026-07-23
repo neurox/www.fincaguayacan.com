@@ -1,0 +1,89 @@
+- generic [ref=f5e5]:
+  - banner:
+    - generic [ref=f5e8]:
+      - generic [ref=f5e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=f5e12] [cursor=pointer]:
+          - img "Facebook" [ref=f5e13]
+      - generic [ref=f5e16]:
+        - button "Log in with QR code" [ref=f5e19] [cursor=pointer]
+        - generic [ref=f5e23]:
+          - textbox "Email or phone" [ref=f5e26]
+          - textbox "Password" [ref=f5e29]
+          - button "Log In" [ref=f5e32] [cursor=pointer]
+          - link "Forgot Account?" [ref=f5e39] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - generic [ref=f5e45]:
+    - main [ref=f5e46]:
+      - generic [ref=f5e47]:
+        - generic [ref=f5e50]:
+          - button [ref=f5e53] [cursor=pointer]
+          - button [ref=f5e60] [cursor=pointer]
+        - link [ref=f5e74] [cursor=pointer]:
+          - /url: /?__tn__=*F
+        - generic [ref=f5e78]:
+          - button [ref=f5e80] [cursor=pointer]
+          - button [disabled] [ref=f5e85]
+          - button [ref=f5e91] [cursor=pointer]
+    - complementary [ref=f5e94]:
+      - generic [ref=f5e98]:
+        - generic [ref=f5e100]:
+          - generic [ref=f5e101]:
+            - link [ref=f5e105] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx?__tn__=%3C%3C*F
+            - generic [ref=f5e112]:
+              - heading [level=2] [ref=f5e116]:
+                - link [ref=f5e120] [cursor=pointer]:
+                  - /url: https://www.facebook.com/fincaguayacanmx?__tn__=-UC*F
+                  - text: Finca Guayacán - Productos Orgánicos
+              - generic [ref=f5e123]:
+                - link [ref=f5e127] [cursor=pointer]:
+                  - /url: https://www.facebook.com/fincaguayacanmx/posts/pfbid0h9cxPoAYQBc1ZAA164bENBLgVfRUA3f2nZFf3TBnaTQQ9FWeGvCno2aTpMsbcSaNl?__tn__=%2CO*F
+                  - text: April 30
+                - generic [ref=f5e128]: ·
+            - button [ref=f5e142] [cursor=pointer]
+          - generic [ref=f5e147]:
+            - text: "Te compartimos ideas de desayunos divertidos para los peques de la casa, hechos con huevos de Finca Guayacán: ricos, frescos y llenos de poder Recuerda que los huevos aportan proteínas que los ayudan a crecer fuertes y nutrientes como hierro y zinc que impulsan su energía y su mente. ¡Feliz día a quienes llenan todo de risas y travesuras! Venta exclusiva en Costco México."
+            - link [ref=f5e159] [cursor=pointer]:
+              - /url: https://www.facebook.com/hashtag/fincaguayac%C3%A1n?__eep__=6&__tn__=*NK*F
+              - text: "#Fin"
+            - text: …
+            - button [ref=f5e160] [cursor=pointer]: See more
+        - generic [ref=f5e162]:
+          - generic [ref=f5e165]:
+            - toolbar [ref=f5e166]:
+              - button [ref=f5e171] [cursor=pointer]
+            - generic [ref=f5e172]: "All reactions:"
+            - generic [ref=f5e173]: "3"
+          - generic [ref=f5e176]:
+            - button [ref=f5e178] [cursor=pointer]:
+              - generic [ref=f5e179]: Like
+            - button [ref=f5e185] [cursor=pointer]:
+              - generic [ref=f5e186]: Comment
+        - generic [ref=f5e192]:
+          - heading [level=2] [ref=f5e193]: Comments
+          - generic [ref=f5e204]:
+            - heading [level=2] [ref=f5e206]:
+              - generic [ref=f5e207]: No comments yet
+            - generic [ref=f5e208]: Be the first to comment.
+  - dialog [ref=f5e220]:
+    - button "Close" [ref=f5e222] [cursor=pointer]
+    - generic [ref=f5e228]:
+      - generic [ref=f5e229]:
+        - generic [ref=f5e230]: See more on Facebook
+        - generic [ref=f5e237]:
+          - generic: Email or phone number
+          - textbox "Email or phone number" [active] [ref=f5e238]
+        - generic [ref=f5e243]:
+          - generic: Password
+          - textbox "Password" [ref=f5e244]
+        - button "Log in to Facebook" [ref=f5e246] [cursor=pointer]:
+          - generic [ref=f5e247]: Log In
+        - link "Forgot password?" [ref=f5e251] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=f5e253]: or
+        - button "Create new account" [ref=f5e262] [cursor=pointer]
+      - generic [ref=f5e272]:
+        - generic [ref=f5e273]: Scan the QR code and confirm the codes match to log in.
+        - generic [ref=f5e274]: ZVI-RGP-UYQJ

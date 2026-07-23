@@ -10,8 +10,8 @@ Static landing page for Finca Guayacán - Productos Orgánicos.
 ## Development
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ## Deployment

@@ -1,0 +1,129 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=e12] [cursor=pointer]:
+          - img "Facebook" [ref=e13]
+      - generic [ref=e16]:
+        - button "Iniciar sesión con código QR" [ref=e582] [cursor=pointer]
+        - generic [ref=e18]:
+          - textbox "Correo o teléfono" [ref=e21]
+          - textbox "Contraseña" [ref=e24]
+          - button "Iniciar sesión" [ref=e27] [cursor=pointer]
+          - link "¿Olvidaste la cuenta?" [ref=e34] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - link "Ver foto de portada del perfil" [ref=e518] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=1550186073778262&set=a.499196265543920
+      - generic [ref=e61]:
+        - link "Finca Guayacán - Productos Orgánicos" [ref=e519] [cursor=pointer]:
+          - /url: https://www.facebook.com/photo/?fbid=1388706606592877&set=a.499196262210587&__tn__=%3C
+          - img "Finca Guayacán - Productos Orgánicos" [ref=e520]
+        - generic [ref=e72]:
+          - heading "Finca Guayacán - Productos Orgánicos" [level=1] [ref=e521]
+          - generic [ref=e79]:
+            - link [ref=e522] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx/followers/
+              - strong [ref=e81]: 4,7 mil
+              - text: seguidores
+            - text: •
+            - link [ref=e523] [cursor=pointer]:
+              - /url: https://www.facebook.com/fincaguayacanmx/following/
+              - strong [ref=e83]: "41"
+              - text: seguidos
+    - generic [ref=e91]:
+      - tablist [ref=e99]:
+        - generic [ref=e101]:
+          - generic [ref=e102]: Más
+          - tab "Publicaciones" [ref=e524] [cursor=pointer]
+          - tab "Información" [ref=e525] [cursor=pointer]
+          - tab "Reels" [ref=e526] [cursor=pointer]
+          - tab "Fotos" [active] [selected] [ref=e527] [cursor=pointer]
+      - button "Ver más opciones en la configuración del perfil" [ref=e528] [cursor=pointer]
+    - generic [ref=e1234]:
+      - heading [level=2] [ref=e1239]:
+        - link "Fotos" [ref=e1241] [cursor=pointer]:
+          - /url: https://www.facebook.com/fincaguayacanmx/photos
+      - tablist [ref=e1245]:
+        - generic [ref=e1247]:
+          - generic [ref=e1248]: Más
+          - tab "Fotos de Finca Guayacán - Productos Orgánicos" [selected] [ref=e1254] [cursor=pointer]
+          - tab "Álbumes" [ref=e1258] [cursor=pointer]
+      - generic [ref=e1262]:
+        - generic [ref=e1263]:
+          - link [ref=e1269] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1565859645544238&set=pb.100063606537187.-2207520000&type=3
+            - img "Puede ser una imagen de texto que dice \"HUEVOBLANCO HUEV HUEVOBL BLANCO Orgánico DELIERE FASTCRED nлeR Gallinas felices que sí dan ganas de presumir\"" [ref=e1270]
+          - link [ref=e1276] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1558928696237333&set=pb.100063606537187.-2207520000&type=3
+            - img "Puede ser una imagen de yema de huevo y texto que dice \"Smooth Butter... like pero con más proteina 000000 HUEVO ORGANICO 24 24PZ OB MJEVO BLANCE OVGANED 金 Kaa 24 Huevos ETVASU DELISRRPASTORBO RASTOREO DEUSRR มกด 503020 533160 MORELOS NC MSAICO 0..00\"" [ref=e1277]
+          - link [ref=e1283] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1558333672963502&set=pb.100063606537187.-2207520000&type=3
+            - img "Puede ser una imagen de ‎juguete para niños y ‎texto que dice \"‎Marketing TEAT Millennial Digital Team Gen z 국트정체 原用白激 ንልያን @ IIIILI c 良密 مل 高月3隊間 心世 2HAM 理 สน Huevos orgánicos certificados de gallinas criadas en libre pastoreo, con frescura garantizada gracias una alimentación de Ια más alta calidad y procesos que priorizan el bienestar animal, ahora en un nuevo empaque hecho con PET 100% reciclado Huevitos orgánicos aesthetic, hallelujah‎\"‎‎" [ref=e1284]
+          - link [ref=e1290] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1552742226855980&set=pb.100063606537187.-2207520000&type=3
+            - img "Puede ser una imagen de pan de centeno y texto que dice \"1ล้ S Finca CиacBл FincaCuayacón Cuay Orgánico HUEVO BLANCO DELIBREPASTOREO DE LIBRE PASTOREO 0 7 天不\"" [ref=e1291]
+          - link [ref=e1297] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1551992450264291&set=pb.100063606537187.-2207520000&type=3
+            - img "Puede ser una imagen de texto" [ref=e1298]
+          - link [ref=e1304] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1550987593698110&set=pb.100063606537187.-2207520000&type=3
+            - img "Puede ser una imagen de tofu y texto" [ref=e1305]
+          - link [ref=e1311] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1446424497487754&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1312]
+          - link [ref=e1318] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1441152564681614&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1319]
+          - link [ref=e1325] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1431169035679967&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1326]
+          - link [ref=e1332] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1416465533816984&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1333]
+          - link [ref=e1339] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1397027959094075&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1340]
+          - link [ref=e1346] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1394147692715435&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1347]
+          - link [ref=e1353] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1390446793085525&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1354]
+          - link [ref=e1360] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1390359856427552&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1361]
+          - link [ref=e1367] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1388703503259854&set=pb.100063606537187.-2207520000&type=3
+            - img "No hay ninguna descripción de la foto disponible." [ref=e1368]
+          - link [ref=e1374] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo.php?fbid=1388703113259893&set=pb.100063606537187.-2207520000&type=3
+            - img "May be an image of text that says 'AYUDAN A RETARDAR EL DETERIORO MENTAL Aportan colina, un nutriente esencial para la memoria y el aprendizaje, además de vitaminas B6 y B12.'" [ref=e1375]
+          - status "Cargando..." [ref=e1380]
+          - status "Cargando..." [ref=e1385]
+          - status "Cargando..." [ref=e1390]
+          - status "Cargando..." [ref=e1395]
+          - status "Cargando..." [ref=e1398]
+          - status "Cargando..." [ref=e1401]
+          - status "Cargando..." [ref=e1404]
+          - status "Cargando..." [ref=e1407]
+          - status "Cargando..." [ref=e1410]
+          - status "Cargando..." [ref=e1413]
+          - status "Cargando..." [ref=e1416]
+          - status "Cargando..." [ref=e1419]
+          - status "Cargando..." [ref=e1422]
+          - status "Cargando..." [ref=e1425]
+          - status "Cargando..." [ref=e1428]
+          - status "Cargando..." [ref=e1431]
+        - status "Cargando..." [ref=e1433]
+  - generic [ref=e563]:
+    - generic [ref=e564]: Inicia sesión o regístrate en Facebook para conectarte con amigos, familiares y personas que conoces.
+    - generic [ref=e567]:
+      - link "Iniciar sesión" [ref=e569] [cursor=pointer]:
+        - /url: /login/?next=%2Ffincaguayacanmx%2F%3Flocale%3Des_LA
+      - generic [ref=e573]: o
+      - link "Crear cuenta nueva" [ref=e576] [cursor=pointer]:
+        - /url: /reg/?next=%2Ffincaguayacanmx%2F%3Flocale%3Des_LA
