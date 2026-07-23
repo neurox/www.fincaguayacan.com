@@ -1,0 +1,43 @@
+---
+const stats = {
+  rating: '58%',
+  totalReviews: 15,
+  label: 'Recomendado por clientes',
+};
+---
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-primary text-center mb-12 font-heading">
+      Lo Que Dicen Nuestros Clientes
+    </h2>
+    
+    <div class="text-center mb-12">
+      <div class="inline-block bg-primary/10 rounded-full px-8 py-4">
+        <div class="text-4xl font-bold text-primary mb-1">{stats.rating}</div>
+        <div class="text-text/70">{stats.label} ({stats.totalReviews} opiniones)</div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-background p-6 rounded-lg">
+        <div class="flex items-center mb-4">
+          <div class="text-accent text-lg">★★★★★</div>
+        </div>
+        <p class="text-text italic mb-4">
+          "Excelente calidad, huevos frescos y con un sabor incomparable. Las gallinas se notas que son felices."
+        </p>
+        <p class="text-text/70 font-medium">— Cliente verificado</p>
+      </div>
+      <div class="bg-background p-6 rounded-lg">
+        <div class="flex items-center mb-4">
+          <div class="text-accent text-lg">★★★★★</div>
+        </div>
+        <p class="text-text italic mb-4">
+          "Los mejores huevos orgánicos que he probado. Se nota la calidad y el cuidado en cada huevo."
+        </p>
+        <p class="text-text/70 font-medium">— Cliente verificado</p>
+      </div>
+    </div>
+  </div>
+</section>
